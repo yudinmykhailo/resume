@@ -1,27 +1,2 @@
 <h1>Hello!</h1>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-</head>
-<body>
-    <h1>Hello!</h1>
-    <div id="markdown-content">
-        **Bold**
-        _Italic_
-        [link](#)
-        [external link](https://google.com)
-    </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var markdownContent = document.getElementById('markdown-content').textContent;
-            var htmlContent = marked(markdownContent);
-            document.getElementById('markdown-content').innerHTML = htmlContent;
-        });
-    </script>
-</body>
-</html>
